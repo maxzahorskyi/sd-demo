@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  background-color: rgb(255, 255, 255, 0.9);
+  color: black;
+  height: 4vh;
+  /* opacity: 0.7; */
+  font-size: 18px;
+  border: 1px solid black;
+  box-shadow: 0 0 2px black;
+  /* border-radius: 7px; */
+}
+
+/* 9e742a */
+input:focus {
+  outline: none;
+  border-color: black;
+  box-shadow: 0 0 4px black;
+}
+
+button {
+  background-color: rgb(255, 255, 255, 0.9);
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  height: 4vh;
+  /* opacity: 0.7; */
+  font-size: 18px;
+  /* border: 1px solid black; */
+  border-radius: 7px;
+  /* box-shadow: 0 2px black; */
+}
+
+button:hover {
+  outline: none;
+  /*border-color: black;*/
+  /*box-shadow: 0 0 4px black;*/
+}
+
+button:active {
+  border-color: black;
+  box-shadow: 0 0 2px black;
+  transform: translateY(2px);
+}
